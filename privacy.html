@@ -10,7 +10,7 @@
 <main>
   <nav><a href="index.html">Tejuice</a><a href="delete-account.html">Delete your account</a></nav>
   <h1>Tejuice privacy policy</h1>
-  <p class="muted">Version 2026-11-09. Tejuice is an Android app made by Tejas (the developer), India.</p>
+  <p class="muted">Version 2026-11-17. Tejuice is an Android app made by Tejas (the developer), India.</p>
 
   <h2>What Tejuice does</h2>
   <p>You share a reel or link to Tejuice from another app, pick what it is (place, event, recipe, reference or later), and add a keyword if you like. Tejuice keeps these saves so you can find them again and plan them.</p>
@@ -19,20 +19,21 @@
   <ul>
     <li><strong>Your Google sign-in details:</strong> your email address, name and profile picture link, as Google shares them. We use them to sign you in and keep your saves separate from everyone else's.</li>
     <li><strong>Your saves:</strong> the link you shared (as shared and a cleaned version), the app it came from, the kind you chose, and the keyword you typed. We use them to show your saves and to search them.</li>
-    <li><strong>Your choices about each save:</strong> its status (to sort, confirmed, archived), snooze counts, reminder choice and date, and the date you opened it or marked it visited. We use them to remind you when you asked.</li>
-    <li><strong>Places you lock:</strong> the Google place ID and the label you give it. We do not store the place's name, address, coordinates or photos.</li>
+    <li><strong>Your choices about each save:</strong> its status (to sort, confirmed, archived), snooze counts, how many times you chose "Not now", when it was last shown to you and how often, reminder choice and date, and the date you opened it or marked it visited. We use them to decide which saves to show you next and to remind you when you asked.</li>
+    <li><strong>Places you pick:</strong> the Google place ID, the place's map location (latitude and longitude), and the optional name you type for the card. We delete the map location, or fetch it again, within 30 days. We do not store Google's name for the place, its address or its photos.</li>
     <li><strong>Optional visit notes:</strong> a private mood word, a best-dish note and a photo, only if you add them.</li>
-    <li><strong>Your settings:</strong> reminder preferences, your home area if you set one, and a record of when you accepted this policy and which consents you gave.</li>
+    <li><strong>Your settings:</strong> reminder preferences, your Home area if you set one (its Google place ID and map location, which we delete or fetch again within 30 days), and a record of when you accepted this policy and which consents you gave.</li>
+    <li><strong>Daily counts of your place searches and lookups:</strong> to apply a daily limit. Not what you searched. Deleted after 7 days.</li>
     <li><strong>A sync token:</strong> a random code kept in your phone's secure storage so shares made offline can reach your account. Our server keeps only a scrambled (hashed) copy.</li>
     <li><strong>Anonymous usage statistics:</strong> counts of what happens in the app, such as how a share ended (saved, swiped away, cancelled), the kind and source app of a save, whether a keyword was added (yes or no, never the keyword), the number of results a search found (never what you typed), and taps like archive, restore or opening Settings. They are tied to a random id made on your phone, never to your account, email, links, words or places. We use them to decide which features to improve or remove. See "Consent and withdrawing it" for how to turn them off.</li>
   </ul>
-  <p>Tejuice does not read your clipboard on its own, does not track your location in the background, and does not collect your location in this version. We have no ads and we do not sell your data.</p>
+  <p>If you allow it, Tejuice reads your phone's location only while the app is open, to show how far your saved places are. It is used on your phone only and never sent to us, to Google or to anyone else. Tejuice never uses your location in the background, and does not read your clipboard on its own. We have no ads and we do not sell your data.</p>
 
   <h2>Who else handles your data</h2>
   <ul>
     <li><strong>Supabase</strong> hosts our database and sign-in. Our project is in the Mumbai (India) region.</li>
     <li><strong>PostHog</strong> receives the anonymous usage statistics above, on its EU cloud (servers in Frankfurt, Germany). Your data therefore leaves India for this purpose.</li>
-    <li><strong>Google</strong> handles sign-in. When a feature needs it, Tejuice also sends a YouTube video ID or the text you type into a place search to Google (YouTube Data API, Places API) to get a title, thumbnail or place.</li>
+    <li><strong>Google</strong> handles sign-in. When a feature needs it, Tejuice also sends a YouTube video ID or the text you type into a place search to Google (YouTube Data API, Places API) to get a title, thumbnail or place. Place searches go through our server and look around your Home area, not your live location.</li>
   </ul>
   <p>We do not share your data with anyone else.</p>
 
